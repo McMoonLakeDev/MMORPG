@@ -1,0 +1,155 @@
+###############################
+# MMORPG 插件简体中文语言配置 #
+# By Month_Light              #
+###############################
+
+# 语言文件 zh_CN.lang
+
+# 语言文件版本
+# version A-1.3
+
+# 可在语言指定值的前面注明 # 则不要
+# 配置文件(config.yml)中的 Prefix
+
+# 命令消息配置
+command.console.notUse=控制台不能使用这个命令.
+command.permission.notHave=你没有使用这个命令的权限.
+command.help.prefix=帮助: {0}
+command.args.noSuccess=错误的命令参数,请使用: {0}
+command.target.notOnline=错误,目标玩家 {0} 没有在线.
+
+command.region.help=#月色之湖区域命令帮助.
+command.region.help.setMain=#设置指定名称的区域主位置.
+command.region.help.setBack=#设置指定名称的区域返回位置.
+command.region.exists=错误,该名称 {0} 的区域已经存在.
+command.region.setMain=成功将名为 {0} 区域主位置设置在当前.
+command.region.setBack=成功将名为 {0} 区域返回位置设置在当前.
+command.region.setMain.notLocation=错误,必须在区域 {0} 里设置主位置.
+command.region.help.create=#创建指定名称的区域.
+command.region.help.remove=#删除指定名称的区域.
+command.region.help.addFlag=#给指定名称的区域添加标示.
+command.region.help.delFlag=#给指定名称的区域删除标示.
+command.region.help.setFlag=#给指定名称的区域设置标示的值.
+command.region.help.setEnter=#给指定名称的区域设置进入消息.
+command.region.help.setLeave=#给指定名称的区域设置离开消息.
+command.region.exists=错误,该名称 {0} 的区域已经存在.
+command.region.notExists=错误,该名称 {0} 的区域没有存在.
+command.region.create=成功将此区域创建名为 {0} 的区域.
+command.region.create.notType=错误,该区域类型 {0} 没有存在.
+command.region.remove=成功将名为 {0} 的区域删除.
+command.region.setEnter=成功将名为 {0} 的区域设置进入消息.
+command.region.setLeave=成功将名为 {0} 的区域设置离开消息.
+command.region.flag.add=成功将标示 {0} 的值为 {1} 添加到 {2} 区域.
+command.region.flag.del=成功将标示 {0} 从 {1} 区域删除.
+command.region.flag.set=成功将标示 {0} 的值设置为 {1} 到 {2} 区域.
+command.region.flag.none=错误,没有存在 {0} 的区域标示类型.
+command.region.flag.exists=错误,该区域的 {0} 标示已经存在.
+command.region.flag.notExists=错误,该区域的 {0} 标示没有存在.
+command.region.flag.valueType=错误,该标示 {0} 所对应的值参数不符合.
+
+command.town.help=#月色之湖城镇命令帮助.
+
+command.mobRegion.help=#月色之湖怪物区域命令帮助
+
+command.health.help=#恢复自己或指定目标玩家的生命值.
+command.health.done=已将目标玩家 {0} 生命值恢复完成.
+command.magic.help=#恢复自己或指定目标玩家的魔法值.
+command.magic.done=已将目标玩家 {0} 魔法值恢复完成.
+
+command.skill.help=#月色之湖技能命令管理.
+command.skill.help.gui=#将打开自己的技能 GUI.
+
+command.tpBook.help=#月色之湖传送书物品命令帮助.
+command.tpBook.help.give=#获得指定类型数量的传送书物品.
+command.tpBook.give=成功获取 {0} 个 {1} 物品.
+command.tpBook.give.notExists=错误,该传送书类型 {0} 没有存在.
+command.tpBook.give.notInteger=错误,数量参数必须为整数型.
+command.tpBook.give.needSpecial=错误,该传送书类型 {0} 需要特殊值参数.
+command.tpBook.give.notMainLocation=错误,该城镇区域没有主位置,无法获取.
+
+command.potion.help=#月色之湖药水物品命令帮助.
+command.potion.help.give=#获取指定类型数量的药水物品.
+command.potion.give=成功获取 {0} 个 {1} 物品.
+command.potion.give.notExists=错误,该药水类型 {0} 没有存在.
+command.potion.give.notInteger=错误,数量参数必须为整数型.
+command.potion.give.notSpecial=错误,药水的特殊值不正确! 正确> 需求等级:恢复值
+
+command.currency.help=#月色之湖货币物品命令管理
+command.currency.help.give=#获取指定类型数量的货币物品.
+command.currency.give=成功获取 {0} 个 {1} &f物品.
+command.currency.give.notExists=错误,该货币类型 {0} 没有存在.
+command.currency.give.notInteger=错误,数量参数必须为整数型.
+
+command.depot.help=#通过命令打开您的个人仓库.
+command.depot.help.main=#打开您的个人仓库.
+command.depot.help.see=#查看指定目标玩家的个人仓库.
+command.depot.see=当前正在查看玩家 {0} 的个人仓库.
+
+command.exp.help=#月色之湖玩家经验命令管理
+command.exp.help.info=#查看自己或指定玩家的经验信息
+command.exp.info=玩家 {0} 的经验值信息:
+command.exp.info2=当前等级: Lv.{0}, 当前经验值: Exp.{1}
+command.exp.info3=距离升级到下一级还需 Exp.{0} 点经验值.
+
+command.mob.help=#月色之湖怪物命令管理
+command.mob.help.create=#创建新的指定类型的自定义怪物
+command.mob.help.summon=#当前位置召唤指定类型的自定义怪物.
+command.mob.help.setDropTable=#将指定类型的自定义怪物设置掉落表.
+command.mob.help.dropTable.add=#将指定怪物掉落表添加手中或指定自定义物品.
+command.mob.help.dropTable.del=#将指定怪物掉落表删除手中或指定自定义物品.
+command.mob.help.dropTable.remove=#删除指定名称的怪物掉落表.
+command.mob.help.dropTable.create=#创建指定名称的怪物掉落表并或添加自定义物品.
+command.mob.notType=错误,该怪物类型 {0} 没有存在.
+command.mob.data.exists=错误,该怪物数据文件 {0} 已经存在.
+command.mob.data.notExists=错误,该怪物数据文件 {0} 没有存在.
+command.mob.create=成功创建名为 {0} 的类型 {1} 的自定义怪物.
+command.mob.create.level.notInteger=错误,该怪物等级参数必须为整数型.
+command.mob.create.dropExp.notInteger=错误,该怪物掉落经验参数必须为整数型.
+command.mob.create.realHealth.notInteger=错误,该怪物生命比值参数必须为整数型.
+command.mob.summon=成功在当前位置召唤名为 {0} 的类型为 {1} 的自定义怪物.
+command.mob.dropTable.notExists=错误,该怪物掉落表数据文件 {0} 没有存在.
+command.mob.dropTable.create=成功创建名为 {0} 的怪物掉落表.
+
+# 玩家消息配置
+player.chat.role.none=您当前没有职业无法进行聊天.
+
+player.death.soul.onTake=您死亡了,灵魂值将减少 {0} 点.
+player.death.soul.notHave=您死亡了,由于没有灵魂值背包物品掉落.
+
+player.mount.summon.onMain=成功设置当前 <&2{0}&f> 为出战坐骑.
+player.mount.summon.isLiving=当前正在坐骑上无法多次召唤.
+player.mount.summon.coolDown=无法召唤,处于冷却时间中,请稍候...
+player.mount.rename.close=您已将取消修改此坐骑名称.
+player.mount.rename.change=成功将 <&2{0}&f> 修改为当前坐骑名称.
+player.mount.rename.notLength=错误,修改的名称长度太大.(限制到: {0})
+player.mount.rename.hasNone=错误,修改的名称不能包含空白字符.
+player.mount.rename.notNone=请正确的输入需要修改的名称.
+player.mount.rename.notMain=没有出战任何坐骑无法进行改名.
+player.mount.rename.notRide=您必须骑乘在坐骑上才能进行改名.
+
+player.skill.cast.success=#{0} = {1} &f(消耗 &a{2} &f魔法值)
+player.skill.cast.notHave.magic=#{0} = {1} &f(&c魔法值不足&f)
+player.skill.reqAtt.description.level=#玩家等级 {0} 足够
+player.skill.reqAtt.description.depend=#技能 {0} 等级 {1} 足够
+
+player.skillGUI.point.notHave=您没有足够的技能点来升级此技能.
+player.skillGUI.skill.maxLevel=此技能 {0} 已经升到满级无法再次升级.
+player.skillGUI.skill.upgrade=成功将技能 {0} 升到 {1} 级.
+player.skillGUI.skill.reqAtt.check.notHave.level=您的等级不足够 {0} 无法升级此技能.
+player.skillGUI.skill.reqAtt.check.notHave.depend=此技能需要将技能 {0} 升级到 {1} 才能学习.
+
+player.upgrade.point.onGet=您此次升级获得到 {0} 技能点.
+
+player.expendable.reqLevel.notEnough=您的等级不足 {0} 无法使用此消耗品.
+player.expendable.potion.use=您使用 {0} 恢复 &b{1} &f点{2}.
+player.expendable.tpBook.start=正在进行传送中,请稍候......
+player.expendable.tpBook.used=您使用 {0} 传送到 &b{1} &f{2}位置.
+player.expendable.toBook.haveMob=当前附近拥有怪物,无法使用传送书.
+
+player.mob.kill.message=您成功击杀 {0} &f怪物获得 {1} 经验值.
+
+player.region.flag.check.notHave.level=您的等级不足够 {0} 无法进入此区域.
+player.region.flag.check.notHave.permission=您没有权限无法进入此区域.
+
+# 前置消息配置
+worldEdit.selection.none=区域错误,请先用创世神选择好矩形区域.

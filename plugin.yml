@@ -1,0 +1,33 @@
+name: MoonLakeMMORPG
+main: com.minecraft.moonlake.mmorpg.MMORPGPlugin
+version: A-1.3
+depend: [MoonLake, MoonLakeGUI, WorldEdit]
+author: Month_Light
+authors: [Month_Light, Simon, Ni_xiaoqi, Ruiqi_666]
+website: http://www.mcyszh.com
+description: 月色之湖大型多人在线角色扮演核心插件
+commands:
+  region:
+    description: 月色之湖区域命令管理
+  town:
+    description: 月色之湖城镇命令管理
+  health:
+    description: 恢复自己或指定玩家的生命值
+  magic:
+    description: 恢复自己或指定玩家的魔法值
+  skill:
+    description: 月色之湖技能命令管理
+  potion:
+    description: 月色之湖药水命令管理
+  tpbook:
+    description: 月色之湖传送书命令管理
+  currency:
+    description: 月色之湖货币命令管理
+  depot:
+    description: 月色之湖玩家个人仓库命令
+  exp:
+    description: 月色之湖玩家经验命令管理
+  mob:
+    description: 月色之湖怪物命令管理
+  mobregion:
+    description: 月色之湖怪物区域命令管理

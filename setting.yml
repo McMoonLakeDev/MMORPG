@@ -1,0 +1,72 @@
+###################################################
+# MMORPG 月色之湖大型多人在线角色扮演插件         #
+# 作者：Month_Light、Simon、Ni_xiaoqi、Ruiqi_666  #
+###################################################
+
+# 插件版本号
+version: A-1.3
+
+########################
+# 服务器的世界规则配置 #
+########################
+ServerRule:
+
+  # 是否应用到全部世界
+  ApplyAllWorld: true
+
+  # 规则列表
+  List:
+
+    # 命令执行时是否在控制台进行文本提示 (def: true)
+    commandBlockOutput: true
+
+    # 是否让服务器停止检查当玩家使用鞘翅时是否作弊（移动太快）(def: false)
+    disableElytraMovementCheck: false
+
+    # 时间是否运动 (def: true)
+    doDaylightCycle: true
+
+    # 非生物实体是否掉落物品 (def: true)
+    doEntityDrops: true
+
+    # 火是否传播及自然熄灭 (def: true)
+    doFireTick: true
+
+    # 生物是否掉落物品 (def: true)
+    doMobLoot: true
+
+    # 生物是否自然生成  (def: true)
+    doMobSpawning: true
+
+    # 方块被破坏时是否掉落物品（包括TNT破坏的）(def: true)
+    doTileDrops: true
+
+    # 玩家死亡后是否对物品栏和经验进行保存 (def: false)
+    keepInventory: false
+
+    # 是否在服务器日志中记录管理员使用过的命令日志 (def: true)
+    logAdminCommands: true
+
+    # 爬行者，僵尸，末影人，恶魂，凋灵，兔子，羊及村民是否能改变、破坏方块及村民，僵尸，骷髅，及僵尸猪人是否能捡拾物品 (def: true)
+    mobGriefing: true
+
+    # 玩家是否能在饥饿值足够时自然恢复生命值（不影响治疗）(def: true)
+    naturalRegeneration: true
+
+    # 多少刻发生随机方块（例如植物生长，树叶腐烂等）一个区块游戏刻为0将禁用随机方块，较高的数字将增加随机方块数 (def: 3)
+    randomTickSpeed: 3
+
+    # 调试画面显示所有或简化的信息 (def: false)
+    reducedDebugInfo: false
+
+    # 对话框是否会显示被一个玩家执行一些特殊命令的提示。也影响命令方块是否保存它们输出文本的默认行为 (def: true)
+    sendCommandFeedback: true
+
+    # 玩家死亡时是否会在聊天框有提示 (def: true)
+    showDeathMessages: true
+
+    # 控制玩家能在距离世界出生点多远的位置重生 (def: 10)
+    spawnRadius: 10
+
+    # 是否禁止旁观者模式的玩家生成区块 (def: true)
+    spectatorsGenerateChunks: true

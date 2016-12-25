@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MoonLakeMMORPG:jar">
+    <output-path>$USER_HOME$/Desktop/api</output-path>
+    <root id="archive" name="MoonLakeMMORPG.jar">
+      <element id="module-output" name="MoonLakeMMORPG" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/zh_CN.lang" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/setting.yml" />
+    </root>
+  </artifact>
+</component>
